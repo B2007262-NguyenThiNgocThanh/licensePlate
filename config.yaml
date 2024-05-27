@@ -1,0 +1,78 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco128.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: /IT04/hk2/CT208_NL/Project/dataset # dataset root dir
+# train: images/train # train images (relative to 'path') 128 images
+# val: images/val # val images (relative to 'path') 128 images
+# test: # test images (optional)
+
+path: /IT04/hk2/CT208_NL/Project/dataset # dataset root dir D:\IT04\hk2\CT208_NL\Project\data_test
+train: images/train # train images (relative to 'path') 128 images
+val: images/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+
+# Classes
+names:
+  0: dog
+  1: person
+  2: cat
+  3: tv
+  4: car
+  5: meatballs
+  6: marinara sauce
+  7: tomato soup
+  8: chicken noodle soup
+  9: french onion soup
+  10: chicken breast
+  11: ribs
+  12: pulled pork
+  13: hamburger
+  14: cavity
+  15: Plate
+  16: 6
+  17: 5
+  18: U
+  19: 1
+  20: 4
+  21: 8
+  22: D
+  23: 0
+  24: 3
+  25: 9
+  26: B
+  27: 7
+  28: M
+  29: A
+  30: 2
+  31: X
+  32: L
+  33: K
+  34: F
+  35: m
+  36: N
+  37: T
+  38: H
+  39: G
+  40: Z
+  41: C
+  42: E
+  43: P
+  44: V
+  45: R
+  46: Y
+  47: S
+  48: Q
+  49: I
+  50: J
+  51: O
+
+# # Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
